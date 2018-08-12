@@ -56,7 +56,8 @@ For each action the Handler receives, logger must be registered.
 * AppConfig
 In order for us to change the service without having to recompile, we will store several entries
 .App.config in the file
-Below is a list of the entries to be stored there (all entries are String type :)
+Below is a list of the entries to be stored there (all entries are String type):
+
 1.Handler - contains a list of paths to listening folders, separated by;
 2. InputDir - The path of the folder where all images are stored by year
 And months as well as the Thumbnails folder.
