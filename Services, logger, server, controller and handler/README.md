@@ -2,6 +2,7 @@
 
 * Create the service
 The service contains the following components:
+
 1. Logger Event - which will record all the actions the service performs.
 2. Installer - which will install the ImageService in the Services list
 System.
@@ -11,7 +12,8 @@ Start, Stop, Start.
 * Create Modal Logging and Modal Image
 The Modal will manage the Logger service
 Once when the Logger receives a message.
-We will make a complete separation between the display and the modal.) The logger will add to the Logger Event all the messages it receives.
+We will make a complete separation between the display and the modal.)
+The logger will add to the Logger Event all the messages it receives.
 
 * Modal Image which will perform the basic operations of the system.), Etc. Move File, Create Folder
 
@@ -58,11 +60,15 @@ In order for us to change the service without having to recompile, we will store
 .App.config in the file
 Below is a list of the entries to be stored there (all entries are String type):
 
-1.Handler - contains a list of paths to listening folders, separated by;
+1.Handler - contains a list of paths to listening folders, separated by ;
+
 2. InputDir - The path of the folder where all images are stored by year
 And months as well as the Thumbnails folder.
+
 3. SourceName - The source name to be given to the Logger Event,
 Service
+
 4.LogName - The log name to be given to the Logger Event that we defined in the Service
 Its value will be: ImageServiceLog
+
 5 .ThumbnailSize - The size of the Thumbnail image
